@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Soonh Danwer - Graphic Designer Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#0A2540",
+          "secondary": "#7aa5d3",
+          "background-light": "#FFFFFF",
+          "text-light": "#333333",
+        },
+        fontFamily: {
+          "display": ["Work Sans", "sans-serif"]
+        },
+        borderRadius: {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+      },
+    },
+  }
+</script>
+<style>
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+</style>
+</head>
+<body class="bg-background-light text-text-light font-display">
+<div class="relative w-full flex flex-col">
+<header class="sticky top-0 z-50 w-full bg-background-light/80 backdrop-blur-sm shadow-sm" id="navbar">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-4 text-primary">
+<div class="size-6">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold">Soonh Danwer</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-secondary transition-colors" href="#home">Home</a>
+<a class="text-sm font-medium hover:text-secondary transition-colors" href="#about">About</a>
+<a class="text-sm font-medium hover:text-secondary transition-colors" href="#skills">Skills</a>
+<a class="text-sm font-medium hover:text-secondary transition-colors" href="#experience">Experience</a>
+<a class="text-sm font-medium hover:text-secondary transition-colors" href="#education">Education</a>
+<a class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold hover:opacity-90 transition-opacity" href="#contact">
+<span class="truncate">Contact Me</span>
+</a>
+</nav>
+</div>
+</div>
+</header>
+<main class="w-full">
+<section class="w-full py-20 md:py-32 bg-background-light" id="home">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-6">
+<div class="flex flex-col gap-2 text-left">
+<h1 class="text-primary text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">Soonh Danwer, Graphic Designer</h1>
+<h2 class="text-text-light text-lg font-normal leading-normal">Creative and detail-oriented designer passionate about modern visual communication.</h2>
+</div>
+<div class="flex flex-wrap gap-3">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal hover:opacity-90 transition-opacity" href="#skills">
+<span class="truncate">View My Skills</span>
+</a>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-secondary/20 text-primary text-base font-bold leading-normal hover:bg-secondary/30 transition-colors" href="#contact">
+<span class="truncate">Contact Me</span>
+</a>
+</div>
+</div>
+<div class="w-full">
+<img src="https://images.pexels.com/photos/3184406/pexels-photo-3184406.jpeg" alt="Business woman sitting on chair" class="w-full h-auto rounded-xl object-cover" />
+</div>
+</div>
+</div>
+</section>
+<section class="w-full py-16 md:py-24 bg-gray-50" id="about">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-primary text-3xl font-bold leading-tight tracking-tight mb-4">About Me</h2>
+<p class="text-text-light text-base font-normal leading-relaxed">
+Creative and detail-oriented Graphic Designer with strong skills in digital design, layout, and visual communication. Passionate about creating clean, modern visuals and looking for opportunities to grow professionally.
+</p>
+</div>
+</section>
+<section class="w-full py-16 md:py-24 bg-background-light" id="skills">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-primary text-3xl font-bold leading-tight tracking-tight mb-12 text-center">Skills</h2>
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 text-center">
+<div class="p-4 bg-gray-50 rounded-lg shadow-sm">Adobe Photoshop</div>
+<div class="p-4 bg-gray-50 rounded-lg shadow-sm">Adobe Illustrator</div>
+<div class="p-4 bg-gray-50 rounded-lg shadow-sm">Adobe InDesign</div>
+<div class="p-4 bg-gray-50 rounded-lg shadow-sm">Figma</div>
+<div class="p-4 bg-gray-50 rounded-lg shadow-sm">Canva</div>
+</div>
+</div>
+</section>
+
+<section class="w-full py-16 md:py-24 bg-background-light" id="projects">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-primary text-3xl font-bold leading-tight tracking-tight mb-12 text-center">Projects</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<img src="https://images.pexels.com/photos/6476584/pexels-photo-6476584.jpeg" class="rounded-lg mb-4" alt="Brand identity project"/>
+<h3 class="text-primary font-bold text-lg">Brand Identity Design</h3>
+<p class="text-text-light text-sm mt-2">Created a full brand identity package including logo, typography, and visual system.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<img src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg" class="rounded-lg mb-4" alt="Social media graphics project"/>
+<h3 class="text-primary font-bold text-lg">Social Media Graphics</h3>
+<p class="text-text-light text-sm mt-2">Designed engaging content templates for Instagram and Facebook using Canva and Illustrator.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+<img src="https://images.pexels.com/photos/6223636/pexels-photo-6223636.jpeg" class="rounded-lg mb-4" alt="Poster and layout project"/>
+<h3 class="text-primary font-bold text-lg">Poster & Layout Design</h3>
+<p class="text-text-light text-sm mt-2">Produced creative layouts for event posters, brochures, and promotional materials.</p>
+</div>
+</div>
+<p class="text-center text-sm text-gray-500 mt-6">Replace placeholder images with real project image URLs.</p>
+</div>
+</section>
+
+<section class="w-full py-16 md:py-24 bg-background-light" id="experience">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-primary text-3xl font-bold leading-tight tracking-tight mb-12">Experience</h2>
+<p class="text-text-light text-base leading-relaxed">No formal work experience yet — open to internships, freelance work, and junior design roles.</p>
+</div>
+</section>
+<section class="w-full py-16 md:py-24 bg-gray-50" id="education">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-primary text-3xl font-bold leading-tight tracking-tight mb-12">Education</h2>
+<p class="text-text-light text-base leading-relaxed">BSc Woman College Khairpur Mirs<br/>Expected Graduation: 2027</p>
+</div>
+</section>
+<section class="w-full py-16 md:py-24 bg-background-light" id="contact">
+<div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-primary text-3xl font-bold leading-tight tracking-tight mb-2 text-center">Get In Touch</h2>
+<p class="text-center text-text-light mb-8">Available for internships and freelance opportunities.</p>
+<form class="space-y-6">
+<div>
+<input class="block w-full rounded-lg border-gray-300 py-3 px-4 shadow-sm" placeholder="Your Name" required type="text"/>
+</div>
+<div>
+<input class="block w-full rounded-lg border-gray-300 py-3 px-4 shadow-sm" placeholder="Your Email Address" required type="email"/>
+</div>
+<div>
+<textarea class="block w-full rounded-lg border-gray-300 py-3 px-4 shadow-sm" placeholder="Your Message" required rows="4"></textarea>
+</div>
+<div>
+<button class="w-full flex justify-center py-3 px-4 rounded-lg text-base font-medium text-white bg-primary hover:opacity-90" type="submit">Send Message</button>
+</div>
+</form>
+</div>
+</section>
+<footer class="bg-primary">
+<div class="max-w-6xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+<p class="text-center text-sm text-white/80">© 2024 Soonh Danwer. All Rights Reserved.</p>
+</div>
+</footer>
+</div>
+</body>
+</html>
